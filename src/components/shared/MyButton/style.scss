@@ -1,0 +1,25 @@
+
+.my-button{
+    background-color: #292929;
+    color: white;
+    text-transform: uppercase;
+    width: 180px;
+    height: 46px;
+    border: none;
+    box-shadow: 2px 2px 3px #807d7d; 
+}
+
+.my-button.radios{
+    border-radius: 23px;
+    background-color: black;
+    color: white;
+
+    
+}
+
+.my-button:hover{
+    background-color: #00bfc5;
+    color: white;
+    opacity: 1;
+    transition: all 0.6s;
+}

@@ -1,0 +1,21 @@
+
+.section-title-wrapper{
+    margin-bottom: 50px;
+    text-align: center;
+    .title{
+        font-family: Poppins,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: #292929;
+    }
+    .subtitle{
+        font-family: Lato,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0 15px;
+        color: #707070;
+    }
+}

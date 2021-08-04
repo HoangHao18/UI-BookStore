@@ -1,0 +1,28 @@
+
+
+.signle-banner{
+    width: 100%;
+    height: 300px;
+    //display: flex;
+    .signle-banner-item{
+        //width: 50%;
+        opacity: 1;
+        transition: opacity 0.1s;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+
+        &:hover{
+            opacity: 0.85;
+        }
+    }
+    .signle-banner-left{
+        //padding-right: 15px;
+    }
+    .signle-banner-right{
+        //padding-left: 15px;
+    }
+}

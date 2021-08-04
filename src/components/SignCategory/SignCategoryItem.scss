@@ -1,0 +1,27 @@
+
+.Sign-category-item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    //padding: 0 10px;
+    .image-sci{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        transition: opacity 0.1s;
+       
+    }
+    .sign-category-button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    &:hover{
+        .image-sci{
+            opacity: 0.85;
+        }
+    }
+}

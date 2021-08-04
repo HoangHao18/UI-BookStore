@@ -1,0 +1,70 @@
+.subscriber-section{
+    text-align: center;
+    .small-text{
+        line-height: 17px;
+        margin-top: -5px;
+        margin-bottom: 0;
+        font-family: Lato,sans-serif;
+        font-weight: 400;
+        color: #707070;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        font-family: Poppins,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #292929;
+    }
+    .short-desc{
+        line-height: 24px;
+        margin-bottom: 50px;
+        font-family: Lato,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #707070;
+    }
+    .form-s{
+        position: relative;
+        width: 620px;
+        max-width: 100%;
+        margin: 0 auto;
+        border: 2px solid #ebebeb;
+        .email-box{
+            
+            font-size: 12px;
+            line-height: 30px;
+            width: 100%;
+            height: 55px;
+            padding: 10px 20px;
+            padding-right: 210px;
+            color: #9d9d9d;
+            border: none;
+            font-family: Lato,sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .subscribe-btn{
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 28px;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: 200px;
+            transform: translateY(-50%);
+            color: #292929;
+            border: none;
+            border-left: 2px solid #ebebeb;
+            font-family: Lato, sans-serif;
+            background: none;
+            
+        }
+        &:focus-visible,
+        .email-box:focus-visible{
+            outline: none;
+        }
+    }
+}

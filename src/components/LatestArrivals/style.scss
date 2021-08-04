@@ -1,0 +1,19 @@
+.latest-arrivals{
+    .slick-slider:hover{
+        .arrow{
+            opacity: 1;
+        }
+    }
+
+    .slick-slide{
+        margin-bottom: 10px;
+
+    }
+
+    .slick-active{
+        .item{
+            animation: zoomIn ease 0.8s;
+        }
+    }
+   
+}

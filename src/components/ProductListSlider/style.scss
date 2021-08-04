@@ -1,0 +1,23 @@
+.product-list-slider{
+    .slick-slider:hover{
+        .arrow{
+            opacity: 1;
+        }
+    }
+
+    .slick-slide{
+        margin-bottom: 10px;
+        .item:first-of-type{
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .slick-slide.slick-active{
+        .item{
+            animation: zoomIn ease 0.8s;
+        }
+    }
+
+   
+}
